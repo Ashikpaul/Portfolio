@@ -1,0 +1,167 @@
+h1, h2, h3,
+.h1, .h2, .h3{
+  margin-bottom: 0.5rem;
+  font-family: monospace;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1, .h1 {
+  font-size: 60px;
+}
+
+h2, .h2 {
+  font-size: 55px;
+}
+
+h3, .h3 {
+  font-size: 45px;
+}
+
+body {
+  padding-top: 3.375rem;
+  color: #ffffff !important;
+  background-color: #222 !important;
+}
+
+a, button{
+  color: #00ffc4 !important;
+}
+
+.resume-btn{  
+  border-color: #00ffc4 !important;
+}
+
+.text-primary{
+  color: #00ffc4 !important;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+h1 {
+  line-height: 1;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    height: 100vh;
+    background: linear-gradient(315deg, #373737, #484646);
+    box-shadow: -60px 0px 7px #313131, 4px 0px 7px #00ffc4;
+    font-family: monospace;
+    font-size: larger;
+  }
+
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: auto;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 2.5rem;
+}
+
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+section.resume-section {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-section-content {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
