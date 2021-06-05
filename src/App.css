@@ -24,16 +24,12 @@ body {
   background-color: #222 !important;
 }
 
-a, button{
+a, button, .text-primary{
   color: #00ffc4 !important;
 }
 
 .resume-btn{  
   border-color: #00ffc4 !important;
-}
-
-.text-primary{
-  color: #00ffc4 !important;
 }
 
 @media (min-width: 992px) {
